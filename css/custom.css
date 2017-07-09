@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 50px;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-image: -webkit-linear-gradient(#F5F5F5, #8A8A8A);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #b3b3b3;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #b3b3b3;
+}
+
+.pacifico-font {
+    font-family: 'Pacifico', cursive;
+}
+
+.container-fluid, #map-row, #map-col {
+    height: 100%;
+}
+
+.media-object {
+    height: 80px;
+    width: 80px;
+}
+
+.media {
+    margin-top: 0;
+    padding: 8px 8px 0 8px;
+/ / border-bottom: solid 1 px #425662;
+    cursor: pointer;
+}
+
+.media-active {
+/ / background-color: #425662;
+}
+
+table.borderless td, table.borderless th {
+    border: none !important;
+}
+
+.navbar-inverse {
+    background-color: #1A237E;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #3F51B5;
+}
+
+.navbar-inverse .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    outline: none;
+}
+
+.default-font{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#map {
+    height: 100%;
+}
+
+#map-col {
+    padding: 0;
+}
+
+#panel-1 {
+    height: 0;
+    overflow: auto;
+    background-color: #E8EAF6;
+/ / color: #6A8DA7;
+}
+
+#panel-side {
+    display: none;
+}
+
+#search-result {
+
+    height: 90%;
+    overflow: auto;
+}
+
+#close {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#sidebar {
+    height: 100%;
+    padding: 0;
+    padding-top: 10px;
+    background-color: #E8EAF6;
+/ / color: #6A8DA7;
+}
+
+#res-reviews {
+
+    list-style: none;
+    padding: 0;
+    height: 45vh;
+    overflow: auto;
+}
+
+#booking-date, #booking-time, #no-of-guests {
+    width: 100%;
+}
